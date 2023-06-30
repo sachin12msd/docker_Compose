@@ -1,0 +1,12 @@
+version: 19.03.0
+
+services: 
+  c1:
+    container_name: "myos1"
+    image: "ubuntu:14.04"
+    command: "date"
+
+  c2:
+    container_name: "myos2"
+    image: "centos:7"
+    command: "sleep 30" 
